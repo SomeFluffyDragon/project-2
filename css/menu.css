@@ -1,0 +1,19 @@
+.feature-heading {
+  color: #000;
+}
+.flex-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.img-container {
+  display: flex;
+  /* Align on the X axis */
+  justify-content: center;
+  /* Align on the Y axis */
+  align-items: center;
+}
+.flex-container > div {
+  width: 45%;
+  margin-top: 10%;
+}
