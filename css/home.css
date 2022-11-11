@@ -1,0 +1,42 @@
+body {
+  background-color: #e0cfb8;
+}
+
+nav {
+  background-color: #532a02 !important;
+  font-size: xx-large;
+}
+
+.body-t {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #a75725;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.display-3 {
+  font-family: "Nanum Myeongjo", serif;
+  color: #a75725;
+}
+
+.bone {
+  margin: 2% 0 0 0;
+}
+
+p {
+  font-family: "Nanum Myeongjo", serif;
+  color: #a75725;
+  font-size: 3vh;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    direction: column-reverse;
+  }
+  p {
+    font-size: 95%;
+  }
+}
