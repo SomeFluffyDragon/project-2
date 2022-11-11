@@ -1,19 +1,31 @@
-.feature-heading {
-  color: #000;
+body {
+  background-color: #e0cfb8;
 }
-.flex-container {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
+.body_t {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #a75725;
 }
-.img-container {
-  display: flex;
-  /* Align on the X axis */
-  justify-content: center;
-  /* Align on the Y axis */
-  align-items: center;
+nav {
+  background-color: #532a02 !important;
+  font-size: xx-large;
 }
-.flex-container > div {
-  width: 45%;
-  margin-top: 10%;
+
+h1 {
+  color: #a75725;
+  font-size: 45px;
+  font-family: "Nanum Myeongjo", serif;
+}
+img {
+  size: 130%;
+  padding-top: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+p {
+  font-size: 30px;
+  font-family: "Nanum Myeongjo", serif;
+}
+.container {
+  padding-top: 10%;
 }
